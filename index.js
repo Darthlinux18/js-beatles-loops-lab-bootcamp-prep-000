@@ -6,12 +6,12 @@ function theBeatlesPlay (musicians, instruments) {
   return emptyArray;
 }
 
-function johnLennonFacts (array) {
+function johnLennonFacts (factsArray) {
   const facts = [];
-  let i = 0
-  while (i < array.length) {
-    facts.push (`${facts[i]}!!!`)
-    i++;
+  let i = 0;
+  while (i < factsArray.length) {
+    facts.push (`${factsArray[i]}!!!`)
+    i++
   }
-  return facts;
+  return facts
 }
